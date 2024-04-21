@@ -17,3 +17,6 @@ jobs:
       
       - name: Run
         run: docker-compose run --rm app django-admin startproject core .
+
+      - name: Up
+        run: docker-compose up
